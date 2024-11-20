@@ -1,6 +1,6 @@
 # ts-node-project-setup
 
-Foundation for setting up a Typescript project that has support for linting, testing, and debugging
+Foundation for setting up a Typescript project that has support for linting, testing, and debugging. This is a simple example, feel free to fork or even add pull requests to this project to share with others.
 
 I typically use [pnpm](https://pnpm.io/) as a Package Manager but everything will work with `npm` as well. Anywhere you see reference to `pnpm` and some command it just means it is using `pnpm`. Examples of both `pnpm` and `npm` are provided.
 
@@ -10,6 +10,10 @@ I typically use [pnpm](https://pnpm.io/) as a Package Manager but everything wil
 2. Clone [this repository](https://github.com/scottluskcis/ts-node-project-setup.git) locally
 3. Run `pnpm install` or `npm install`
 4. Run `pnpm dev` or `npm run dev` to run the simple example
+
+## Build
+
+Run `pnpm build` or `npm run build` to generate the `dist` folder with files for build
 
 ## Tests
 
